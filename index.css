@@ -19,11 +19,8 @@ p {
 
 }
 
-.container_banner h1{
-  font-size: 48px;
-  position: relative;
-  top: 130px;
-  left: 250px;
-  width: 400px;
-  margin-top: 0;
+.onediv {
+  border: 5px outset red;
+  background-color: lightblue;
+  text-align: center;
 }
