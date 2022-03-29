@@ -1,7 +1,6 @@
 body {
-  background-color: #a7a9ac;
-color #666666;
-background-image: url('body-bg.gif');
+  background-color: #20c7d6;
+background-image: url('x');
 background-repeat: repeat-x;
 height: 100%;
 padding: 0;
@@ -21,6 +20,5 @@ p {
 
 .onediv {
   border: 5px outset red;
-  background-color: lightblue;
   text-align: center;
 }
