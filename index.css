@@ -1,5 +1,11 @@
 body {
-  background-color: lightblue;
+  background-color: #a7a9ac;
+color #666666;
+background-image: url('body-bg.gif');
+background-repeat: repeat-x;
+height: 100%;
+padding: 0;
+margin: 0;
 }
 
 h1 {
@@ -10,6 +16,14 @@ h1 {
 p {
   font-family: IBM Plex Mono;
   font-size: 20px;
-  color: orange;
 
+}
+
+.container_banner h1{
+  font-size: 48px;
+  position: relative;
+  top: 130px;
+  left: 250px;
+  width: 400px;
+  margin-top: 0;
 }
