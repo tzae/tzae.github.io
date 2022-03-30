@@ -8,9 +8,20 @@ margin: 0;
 font-family: Lucida Console;
 }
 
+.WebContainer{
+    width: 100%;
+    height: auto;
+}
+.articles{
+    width:90%; /*Takes 90% width from WebContainer*/
+    height: auto;
+    margin: auto;
+}
+
 h1 {
   color: white;
   text-align: center;
+  font-size: 50px
 }
 
 p {
