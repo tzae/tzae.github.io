@@ -35,5 +35,7 @@ p {
 }
 
 .listone {
-  width: auto;
+  width: 70%;
+  text-align: center;
+  
 }
