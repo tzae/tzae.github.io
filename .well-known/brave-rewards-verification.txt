@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: tzae.github.io
+Token: 96f9921ffeb46aae18038b28ec1bcc4dc1d63c975921fdc94a0f9044fc980331
