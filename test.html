@@ -9,6 +9,17 @@
 <center>
 <p id="p1">89RmRZjbhiAVxL54iVrMm8RxZBoKYk8AXSVteA8ArBp4FiaUic1pjBjTvGPM3Tz8VXSozWYpiqgMcTcP7fGbkRCLV2Qh6ZL</p>
 
-<button onclick="copyToClipboard('#p1')">Copy address</button>
+<button id='address'>Copy Button</button>
+
+<script>
+    document.getElementById('address').addEventListener('click', function() {
+        clipboard.copy({
+            'text/plain': '89RmRZjbhiAVxL54iVrMm8RxZBoKYk8AXSVteA8ArBp4FiaUic1pjBjTvGPM3Tz8VXSozWYpiqgMcTcP7fGbkRCLV2Qh6ZL'
+        }).then(
+            function(){console.log('success'); },
+            function(err){console.log('failure', err);
+        });
+    });
+</script>
 
 </center>
