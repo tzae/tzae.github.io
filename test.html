@@ -4,22 +4,37 @@
 <head>
 <link rel="stylesheet" href="index.css"></head>
 <script src="useless.js"></script>
-        <p style="color:wheat;font-size:55px;text-align:center;">you may send me things through brave and monero</p>
+        <p style="color:wheat;font-size:42px;text-align:center;">you may send me things through brave and monero</p>
 
 <center>
-<p id="p1">89RmRZjbhiAVxL54iVrMm8RxZBoKYk8AXSVteA8ArBp4FiaUic1pjBjTvGPM3Tz8VXSozWYpiqgMcTcP7fGbkRCLV2Qh6ZL</p>
+<p id="address">89RmRZjbhiAVxL54iVrMm8RxZBoKYk8AXSVteA8ArBp4FiaUic1pjBjTvGPM3Tz8VXSozWYpiqgMcTcP7fGbkRCLV2Qh6ZL</p>
 
-<button id='address'>Copy Button</button>
+    <script type="text/javascript">
 
-<script>
-    document.getElementById('address').addEventListener('click', function() {
-        clipboard.copy({
-            'text/plain': '89RmRZjbhiAVxL54iVrMm8RxZBoKYk8AXSVteA8ArBp4FiaUic1pjBjTvGPM3Tz8VXSozWYpiqgMcTcP7fGbkRCLV2Qh6ZL'
-        }).then(
-            function(){console.log('success'); },
-            function(err){console.log('failure', err);
-        });
-    });
-</script>
+      function copyToClipboard(elementId) {
+
+        // Create a "hidden" input
+        var aux = document.createElement("input");
+
+        // Assign it the value of the specified element
+        aux.setAttribute("value", document.getElementById(address).innerHTML);
+
+        // Append it to the body
+        document.body.appendChild(aux);
+
+        // Highlight its content
+        aux.select();
+
+        // Copy the highlighted text
+        document.execCommand("copy");
+
+        // Remove it from the body
+        document.body.removeChild(aux);
+
+      }
+
+    </script>
+
+
 
 </center>
