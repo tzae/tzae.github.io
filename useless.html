@@ -12,10 +12,18 @@
       <br><br>
     <p><h2>brave should work someday, maybe.. I think</h2></p>
     <p><h2> <style="user select all"> <a href="monero:89RmRZjbhiAVxL54iVrMm8RxZBoKYk8AXSVteA8ArBp4FiaUic1pjBjTvGPM3Tz8VXSozWYpiqgMcTcP7fGbkRCLV2Qh6ZL">monero</a></h2></p>
-    <button id="buttonaddress" onclick="copyToClipboard('#p1')">copy monero address</button>
 
-    <input id="address" type="text"
-
+      <script type="text/javascript">
+            function Copy(test) {
+              var elem = document.createElement("textarea")
+              elem.value = text;
+              document.body.appendChild(elem);
+              elem.select();
+              document.execCommand("Copy");
+              alert("address copied")
+            }
+        }
+      </script>
 
   <center>
 
