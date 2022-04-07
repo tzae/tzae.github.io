@@ -7,11 +7,28 @@ p
   font-size:64px;
 }
 
+.dont-break-out {
+
+  /* These are technically the same, but use both */
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+
+  word-break: break-all;
+  /* Instead use this non-standard one: */
+  word-break: break-word;
+
+  /* Adds a hyphen where the word breaks, if supported (No Blink) */
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+
+}
+
 .container {
   margin: auto;
   padding: 10px;
   height: 200px;
-  width: 60%;
   position: absolute;
   border: 4px solid green;
 
