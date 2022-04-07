@@ -7,6 +7,12 @@ p
   font-size:64px;
 }
 
+.ellipses {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
 .dont-break-out {
 
   /* These are technically the same, but use both */
