@@ -1,14 +1,14 @@
-<!DOCTYPE html>
 <html>
-  <head
-  <?php header("HTTP/1.1 301 Moved Permanently"); header("Location: https://www.youtube.com/watch?v=dQw4w9WgXcQ"); header("Connection: close"); ?>
-    <meta http-equiv="refresh" content="1; url='https://www.youtube.com/watch?v=dQw4w9WgXcQ'" />
-  </head>
-  <body>
-    <p>
-      <center>
-        <h1>you know where we're going</h1>
-      </center>
-    </p>
-  </body>
+    <head>
+        <title>Redirecting...</title>
+        <script>
+            window.location.replace("https://www.youtube.com/watch?v=dQw4w9WgXcQ");
+        </script>
+        <noscript>
+            <meta http-equiv="refresh" content="0; url=https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+        </noscript>
+    </head>
+    <body>
+        <h1>Loading...</h1>
+    </body>
 </html>
